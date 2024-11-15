@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Abinaya</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="side-menu" id="side-menu">
+        <ul>
+          
+          <li>
+            <a href="#home" class="item list">
+              <i class="ri-home-2-fill"></i>
+              <span class="text">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#about" class="item list">
+              <i class="ri-user-3-line"></i>
+              <span class="text">About</span>
+            </a>
+          </li>
+          <li>
+            <a href="#service" class="item list">
+              <i class="ri-customer-service-line"></i>
+              <span class="text">Services</span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects" class="item list">
+              <i class="ri-folder-chart-line"></i>
+              <span class="text">Projects</span>
+            </a>
+          </li>
+          <li>
+           
+          <li>
+            <a href="#contact" class="item list">
+              <i class="ri-message-2-line"></i>
+              <span class="text">Contact</span>
+            </a>
+          </li>
+          <li>
+            <div class="nav__btns">
+              <div class="color__theme" id="color__theme">
+                <div class="custom-select-wrapper">
+                  <div class="custom-select">
+                    <div class="custom-select__trigger item list">
+                      <div>
+                        <i class="ri-brush-line"></i>
+                        <label for="hcolor"> </label>
+                      </div>
+                      <span class="text">Color</span>
+                    </div>
+                    <div class="custom-options">
+                      <div
+                        class="custom-option item list selected"
+                        data-value="Purple"
+                      >
+                        <div>
+                          <input
+                            type="radio"
+                            name="color-theme"
+                            id="purple"
+                            value="250"
+                            checked=""
+                          />
+                          <label for="purple"> </label>
+                        </div>
+                        <label for="purple"
+                          ><span class="text">Purple</span></label
+                        >
+                      </div>
+                      <div class="custom-option item list" data-value="Green">
+                        <div>
+                          <input
+                            type="radio"
+                            name="color-theme"
+                            id="green"
+                            value="142"
+                          />
+                          <label for="green"> </label>
+                        </div>
+                        <label for="green"
+                          ><span class="text">Green</span></label
+                        >
+                      </div>
+                      <div class="custom-option item list" data-value="Blue">
+                        <div>
+                          <input
+                            type="radio"
+                            name="color-theme"
+                            id="blue"
+                            value="230"
+                          />
+                          <label for="blue"> </label>
+                        </div>
+                        <label for="blue"><span class="text">Blue</span></label>
+                      </div>
+                      <div class="custom-option item list" data-value="Pink">
+                        <div>
+                          <input
+                            type="radio"
+                            name="color-theme"
+                            id="pink"
+                            value="340"
+                          />
+                          <label for="pink"> </label>
+                        </div>
+                        <label for="pink"><span class="text">Pink</span></label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="item list">
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+              </a>
+            </div>
+            <a href="#" class="item list menu-toggle">
+              <i class="ri-side-bar-line"></i>
+              <span class="text">Menu</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="toggle-sidebar">
+        <input id="menu-hamburger" type="checkbox" />
+
+        <label for="menu-hamburger" class="menu-hamburger">
+          <div class="menu">
+            <span class="hamburger"></span>
+          </div>
+        </label>
+      </div>
+    </header>
+    <div class="main">
+      <section class="home section" id="home">
+        <div class="home--container container grid">
+          <div class="home--content flex">
+            <div class="home--img">
+              <img src="img\squircle-image.png" alt="" />
+            </div>
+
+            <div class="home--data">
+              <h1 class="title">Hi, I'am Abinaya</h1>
+              <h3 class="subtitle">Frontend Web Designer </h3>
+              <p class="description">
+               I am coding with a
+                clean and beautiful problem solving in mind.
+              </p>
+              <a href="#contact" class="button button-flex">
+                Contact Me
+                <div class="icons--btn">
+                  <i class="ri-send-plane-2-line button--icon"></i>
+                  <i class="ri-send-plane-2-fill button--icon"></i>
+                </div>
+              </a>
+              <a href="#" class="button button-flex">
+                Download CV
+                <div class="icons--btn">
+                  <i class="ri-download-line button--icon"></i>
+                  <i class="ri-download-fill button--icon"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="hero--social">
+            <div class="border-line"></div>
+            <div class="social">
+              <a href="#" class="icon" target="_blank">
+                <i class="ri-github-line"></i>
+              </a>
+              <a href="#" class="icon" target="_blank">
+                <i class="ri-linkedin-line"></i>
+              </a>
+              <a href="#" class="icon" target="_blank">
+                <i class="ri-whatsapp-line"></i>
+              </a>
+              <a href="#" class="icon" target="_blank">
+                <i class="ri-telegram-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="scroll">
+            <a href="#about" class="scroll-button">
+              <i class="ri-mouse-line scroll-mouse"></i>
+            </a>
+          </div>
+        </div>
+        <div class="blob--item">
+          <div class="blob blob--right">
+            <svg width="1200" height="1200">
+              <circle cx="600" cy="600" r="600" />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section class="about section" id="about">
+        <div class="about--container container lines-relative">
+          <div class="bg-lines lines-dark">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <h2 class="section--title">About Me</h2>
+          <span class="section--subtitle">My introduction</span>
+          <div class="about--content flex">
+            <img src="img\abisq.png" alt="" class="about--img" />
+            <div class="about--data">
+              <h3 class="subtitle">Glad to Help You!</h3>
+              <p class="description">
+                I’m [K.Abinaya], a passionate front-end web designer skilled in HTML, CSS, and JavaScript. I focus on creating responsive, user-friendly websites with attention to design and functionality. Excited to bring my creativity and fresh perspective to contribute to impactful web experiences.
+
+
+              </p>
+            <a href="#" class="button button-flex">
+                Download CV
+                <div class="icons--btn">
+                  <i class="ri-download-line button--icon"></i>
+                  <i class="ri-download-fill button--icon"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="about--skills">
+            <strong>Skills</strong> <br />
+            <div
+              class="typewrite"
+              data-period="2000"
+              data-type='[ "Html, Css, JavaScript,ReactJS", "Php, Mysql", "C" ]'
+            >
+              <span class="wrap"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="service section dark-bg" id="service">
+        <div class="service--container container lines-relative">
+          <div class="bg-lines lines-dark">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <h2 class="section--title">Services we can help you with</h2>
+          <span class="section--subtitle">My introduction</span>
+          <div class="service--content flex">
+            <div class="service--data liner-grd-box">
+              <div class="liner-grd">
+                <div class="icon">
+                  <i class="ri-paint-line"></i>
+                </div>
+                <div class="content">
+                  <h5 class="title">Design</h5>
+                  <p>
+                    Craft beautiful, responsive, and user-friendly front-end designs that deliver an exceptional user experience across all devices and platforms.
+                  </p>
+                  <a href="#" class="more-btn">Find out more</a>
+                </div>
+              </div>
+              <div class="liner-grd is-active">
+                <div class="icon">
+                  <i class="ri-code-box-line"></i>
+                </div>
+                <div class="content">
+                  <h5 class="title">Development</h5>
+                  <p>
+                    Develop seamless, interactive front-end solutions using the latest technologies to ensure responsive, fast, and accessible websites.
+                  </p>
+                  <a href="#" class="more-btn">Find out more</a>
+                </div>
+              </div>
+              
+              
+              <div class="liner-grd">
+                <div class="icon">
+                  <i class="ri-cpu-line"></i>
+                </div>
+                <div class="content">
+                  <h5 class="title">Technology</h5>
+                  <p>
+                    Utilize the latest front-end technologies and tools to build innovative, responsive, and scalable web applications that enhance user engagement and performance.
+                  </p>
+                  </p>
+                  <a href="#" class="more-btn">Find out more</a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects section light-bg" id="projects">
+        <div class="projects--container container lines-relative">
+          <div class="bg-lines lines-dark">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <h2 class="section--title">Selected projects</h2>
+          <span class="section--subtitle">My Project</span>
+          <div class="projects--content">
+            <div class="projects--data">
+              <div class="filter-item animate--zoom-img flex">
+                <div class="projects--item">
+                  <div class="thumbnail">
+                    <a href="#">
+                      <img src="img\p1.jpeg" alt="" />
+                    </a>
+                  </div>
+                  <div class="content">
+                    <span class="subtitle">Waterland,ThemePark</span>
+                    <h3 class="title">
+                      <a href="#">Fun, Sun, and Endless Splashing</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="projects--item">
+                  <div class="thumbnail">
+                    <a href="#">
+                      <img src="img\p2.jpeg" alt="" />
+                    </a>
+                  </div>
+                  <div class="content">
+                    <span class="subtitle">Product Card,Headphone</span>
+                    <h3 class="title">
+                      <a href="#">Noise-Canceling Headphones</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="projects--item">
+                  <div class="thumbnail">
+                    <a href="#">
+                      <img src="img\p5.jpeg" alt="" />
+                    </a>
+                  </div>
+                  <div class="content">
+                    <span class="subtitle">Candle Animation</span>
+                    <h3 class="title">
+                      <a href="#">The Magic of Wax and Flame</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="projects--item">
+                  <div class="thumbnail">
+                    <a href="#">
+                      <img src="img\p4.jpeg" alt="" />
+                    </a>
+                  </div>
+                  <div class="content">
+                    <span class="subtitle">Analog Digital Watch</span>
+                    <h3 class="title">
+                      <a href="#">Precision in Every Moment</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box-align">
+                <a href="#" class="button button-flex">
+                  Discover More Projects
+                  <div class="icons--btn">
+                    <i class="ri-bubble-chart-line button--icon"></i>
+                    <i class="ri-bubble-chart-fill button--icon"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section class="contact section" id="contact">
+        <div class="contact--container container lines-relative">
+          <div class="bg-lines lines-dark">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <h2 class="section--title">
+            Have a new project in mind? <br />
+            <span class="rotator-wrapper" id="rotator-text"
+              ><span class="is-visible">Start today!</span
+              ><span>We can help.</span><span>Let's talk!</span></span
+            >
+          </h2>
+          <span class="section--subtitle">Get in touch</span>
+          <div class="info--list flex">
+            <div class="information">
+              <i class="ri-phone-line icon"></i>
+
+              <div>
+                <h3 class="title">Call Me</h3>
+                <span class="subtitle">+91 9345753436</span>
+              </div>
+            </div>
+            <div class="information">
+              <i class="ri-mail-line icon"></i>
+
+              <div>
+                <h3 class="title">Email</h3>
+                <span class="subtitle">abisubi0012@gmail.com</span>
+              </div>
+            </div>
+            <div class="information">
+              <i class="ri-map-pin-line icon"></i>
+
+              <div>
+                <h3 class="title">Location</h3>
+                <span class="subtitle">Rajapalayam,Virudhunagar District</span>
+              </div>
+            </div>
+          </div>
+          <form action="" class="form grid">
+            <div class="title">
+              Hey! Tell us all <br />
+              the things <img src="img/hi.png" alt="" />
+            </div>
+            <div class="serv-check">
+              <label class="title">I'm interested in...</label>
+              
+              <div class="checkbox checkbox-rounded">
+                <label
+                  ><input
+                    type="checkbox"
+                    name="service1"
+                    value="web-design" /><span
+                    class="checkbox-rounded-box label-up"
+                    ><span class="checkbox-rounded-title"
+                      ><span data-text="Web design">Web design</span></span
+                    ><span class="checkbox-rounded-ripple"
+                      ><span></span></span></span
+                ></label>
+              </div>
+              <div class="checkbox checkbox-rounded">
+                <label
+                  ><input
+                    type="checkbox"
+                    name="service1"
+                    value="app-design" /><span
+                    class="checkbox-rounded-box label-up"
+                    ><span class="checkbox-rounded-title"
+                      ><span data-text="App design">App design</span></span
+                    ><span class="checkbox-rounded-ripple"
+                      ><span></span></span></span
+                ></label>
+              </div>
+              
+              <div class="checkbox checkbox-rounded">
+                <label
+                  ><input
+                    type="checkbox"
+                    name="service1"
+                    value="html-css" /><span
+                    class="checkbox-rounded-box label-up"
+                    ><span class="checkbox-rounded-title"
+                      ><span data-text="HTML/CSS coding"
+                        >HTML/CSS coding</span
+                      ></span
+                    ><span class="checkbox-rounded-ripple"
+                      ><span></span></span></span
+                ></label>
+              </div>
+              <div class="checkbox checkbox-rounded">
+                <label
+                  ><input type="checkbox" name="service1" value="c" /><span
+                    class="checkbox-rounded-box label-up"
+                    ><span class="checkbox-rounded-title"
+                      ><span data-text="C Coding"
+                        >C Coding</span
+                      ></span
+                    ><span class="checkbox-rounded-ripple"
+                      ><span></span></span></span
+                ></label>
+              </div>
+              <div class="checkbox checkbox-rounded">
+                <label
+                  ><input
+                    type="checkbox"
+                    name="service1"
+                    value="concept-design" /><span
+                    class="checkbox-rounded-box label-up"
+                    ><span class="checkbox-rounded-title"
+                      ><span data-text="Design concept"
+                        >Design concept</span
+                      ></span
+                    ><span class="checkbox-rounded-ripple"
+                      ><span></span></span></span
+                ></label>
+              </div>
+              
+              
+              
+            <div class="content">
+              <div class="input--box">
+                <input type="text" class="input" placeholder="Your Name *" />
+                <div class="input-line"></div>
+              </div>
+            </div>
+            <div class="content">
+              <div class="input--box">
+                <input type="email" class="input" placeholder="Your Email *" />
+                <div class="input-line"></div>
+              </div>
+            </div>
+            <div class="content">
+              <div class="input--box">
+                <textarea
+                  name=""
+                  id=""
+                  cols="0"
+                  rows="7"
+                  class="input"
+                  placeholder="Your Project"
+                ></textarea>
+                <div class="input-line"></div>
+              </div>
+            </div>
+            
+            <div>
+              <a href="#" class="button button--flex">
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="footer--bg dark-bg">
+        <div class="footer--container container grid">
+          <div class="social--list flex">
+            <a href="#" class="icon" target="_blank">
+              <i class="ri-github-line"></i>
+            </a>
+            <a href="#" class="icon" target="_blank">
+              <i class="ri-linkedin-line"></i>
+            </a>
+            
+            <a href="#" class="icon" target="_blank">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+            
+            <a href="#" class="icon" target="_blank">
+              <i class="ri-telegram-line"></i>
+            </a>
+           
+          </div>
+          <div class="footer--copy flex">
+            <p>&#169; Abinaya. All right reserved</p>
+            <ul class="list--link">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="progress-line">
+      <div class="progress-wrap">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <a href="#" class="scrollup" id="scroll-up"> Scroll Up </a>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
